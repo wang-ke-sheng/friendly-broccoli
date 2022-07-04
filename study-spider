@@ -1,0 +1,5 @@
+import requests
+
+r = requests.get('https://www.huya.com')
+print(r.text)
+print(r.headers)
